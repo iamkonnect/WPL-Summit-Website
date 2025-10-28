@@ -1,0 +1,80 @@
+{
+  "content": [{
+    "id": "a7b3c9d2",
+    "elType": "section",
+    "settings": {
+      "structure": "20",
+      "padding": {"unit": "px","top": "15","right": "0","bottom": "15","left": "0","isLinked": false},
+      "background_background": "classic",
+      "background_color": "#AC43A9",
+      "margin": {"unit": "px","top": "0","right": "0","bottom": "0","left": "0","isLinked": false}
+    },
+    "elements": [{
+      "id": "e8f4g1h6",
+      "elType": "column",
+      "settings": {"_column_size": 25,"_inline_size": 25,"_inline_size_tablet": 50,"_inline_size_mobile": 100},
+      "elements": [{
+        "id": "i2j7k3l8",
+        "elType": "widget",
+        "settings": {
+          "image": {"url": "https://wplsummit.org/wp-content/uploads/2023/logo.png","id": 1,"size": "full","alt": "WPL Summit"},
+          "image_size": "full",
+          "link": {"url": "/"}
+        },
+        "widgetType": "image"
+      }]
+    },{
+      "id": "m9n5o0p4",
+      "elType": "column",
+      "settings": {"_column_size": 50,"_inline_size": 50,"_inline_size_tablet": 50,"_inline_size_mobile": 100,"content_position": "center"},
+      "elements": [{
+        "id": "q1r6s2t7",
+        "elType": "widget",
+        "settings": {
+          "align": "center",
+          "menu": "primary-menu",
+          "menu_typography_typography": "custom",
+          "menu_typography_font_size": {"unit": "px","size": 16},
+          "menu_typography_font_weight": "500",
+          "menu_color": "#ffffff",
+          "menu_color_hover": "#000000",
+          "menu_color_active": "#000000",
+          "menu_dropdown_background_color": "#AC43A9",
+          "menu_dropdown_color": "#ffffff",
+          "menu_dropdown_color_hover": "#000000"
+        },
+        "widgetType": "nav-menu"
+      }]
+    },{
+      "id": "u3v8w4x9",
+      "elType": "column",
+      "settings": {"_column_size": 25,"_inline_size": 25,"_inline_size_tablet": 100,"_inline_size_mobile": 100,"content_position": "center","align": "right"},
+      "elements": [{
+        "id": "y5z0a1b2",
+        "elType": "widget",
+        "settings": {
+          "text": "Register Now",
+          "link": {"url": "/register","is_external": "","nofollow": ""},
+          "type": "info",
+          "background_color": "#000000",
+          "text_color": "#ffffff",
+          "border_color": "#000000",
+          "hover_background_color": "#333333",
+          "hover_text_color": "#ffffff",
+          "hover_border_color": "#333333",
+          "border_radius": {"unit": "px","top": "5","right": "5","bottom": "5","left": "5","isLinked": true},
+          "padding": {"unit": "px","top": "12","right": "30","bottom": "12","left": "30","isLinked": false},
+          "typography_typography": "custom",
+          "typography_font_weight": "600",
+          "text_transform": "uppercase"
+        },
+        "widgetType": "button"
+      }]
+    }],
+    "isInner": false
+  }],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "WPL Header",
+  "type": "section"
+}

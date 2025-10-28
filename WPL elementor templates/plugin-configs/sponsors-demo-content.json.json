@@ -1,0 +1,52 @@
+{
+  "sponsors": [
+    {
+      "name": "United Nations Women",
+      "level": "platinum",
+      "logo": "un-women-logo.png",
+      "website": "https://www.unwomen.org"
+    },
+    {
+      "name": "World Bank Group",
+      "level": "platinum",
+      "logo": "world-bank-logo.png",
+      "website": "https://www.worldbank.org"
+    },
+    {
+      "name": "Bill & Melinda Gates Foundation",
+      "level": "gold",
+      "logo": "gates-foundation-logo.png",
+      "website": "https://www.gatesfoundation.org"
+    },
+    {
+      "name": "Google.org",
+      "level": "gold",
+      "logo": "google-org-logo.png",
+      "website": "https://www.google.org"
+    },
+    {
+      "name": "McKinsey & Company",
+      "level": "silver",
+      "logo": "mckinsey-logo.png",
+      "website": "https://www.mckinsey.com"
+    },
+    {
+      "name": "Mastercard Foundation",
+      "level": "silver",
+      "logo": "mastercard-foundation-logo.png",
+      "website": "https://www.mastercardfdn.org"
+    },
+    {
+      "name": "Procter & Gamble",
+      "level": "bronze",
+      "logo": "p-and-g-logo.png",
+      "website": "https://www.pg.com"
+    },
+    {
+      "name": "Microsoft",
+      "level": "bronze",
+      "logo": "microsoft-logo.png",
+      "website": "https://www.microsoft.com"
+    }
+  ]
+}

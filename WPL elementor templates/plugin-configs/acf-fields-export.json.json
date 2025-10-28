@@ -1,0 +1,66 @@
+{
+  "acf_fc_layout": "group_64a1b2c3d4e5f",
+  "title": "Speaker Information",
+  "fields": [{
+    "key": "field_64a1b2c3d4e60",
+    "label": "Speaker Position/Title",
+    "name": "speaker_title",
+    "type": "text",
+    "instructions": "Enter the speaker's position or title",
+    "required": 1,
+    "default_value": "",
+    "placeholder": "e.g., CEO, President, Minister"
+  },{
+    "key": "field_64a1b2c3d4e61",
+    "label": "Speaker Company/Organization",
+    "name": "speaker_company",
+    "type": "text",
+    "instructions": "Enter the speaker's company or organization",
+    "required": 1,
+    "default_value": "",
+    "placeholder": "e.g., Google, United Nations"
+  },{
+    "key": "field_64a1b2c3d4e62",
+    "label": "Speaker LinkedIn",
+    "name": "speaker_linkedin",
+    "type": "url",
+    "instructions": "Enter the speaker's LinkedIn profile URL",
+    "required": 0,
+    "default_value": "",
+    "placeholder": "https://linkedin.com/in/username"
+  },{
+    "key": "field_64a1b2c3d4e63",
+    "label": "Speaker Twitter",
+    "name": "speaker_twitter",
+    "type": "url",
+    "instructions": "Enter the speaker's Twitter profile URL",
+    "required": 0,
+    "default_value": "",
+    "placeholder": "https://twitter.com/username"
+  },{
+    "key": "field_64a1b2c3d4e64",
+    "label": "Featured Speaker",
+    "name": "featured_speaker",
+    "type": "true_false",
+    "instructions": "Check if this is a featured speaker",
+    "required": 0,
+    "message": "Feature this speaker on the homepage",
+    "default_value": 0,
+    "ui": 1,
+    "ui_on_text": "Yes",
+    "ui_off_text": "No"
+  }],
+  "location": [[{
+    "param": "post_type",
+    "operator": "==",
+    "value": "speakers"
+  }]],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": ""
+}

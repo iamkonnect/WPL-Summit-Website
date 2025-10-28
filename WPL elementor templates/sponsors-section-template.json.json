@@ -1,0 +1,71 @@
+{
+  "content": [{
+    "id": "sponsors-section",
+    "elType": "section",
+    "settings": {
+      "structure": "20",
+      "padding": {"unit": "px","top": "80","right": "0","bottom": "80","left": "0","isLinked": false},
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "margin": {"unit": "px","top": "0","right": "0","bottom": "0","left": "0","isLinked": false}
+    },
+    "elements": [{
+      "id": "sponsors-content",
+      "elType": "column",
+      "settings": {"_column_size": 100,"_inline_size": 100,"align": "center"},
+      "elements": [{
+        "id": "sponsors-title",
+        "elType": "widget",
+        "settings": {
+          "title": "Our Sponsors",
+          "title_color": "#AC43A9",
+          "typography_typography": "custom",
+          "typography_font_size": {"unit": "px","size": 40},
+          "typography_font_weight": "700",
+          "align": "center"
+        },
+        "widgetType": "heading"
+      },{
+        "id": "sponsors-subtitle",
+        "elType": "widget",
+        "settings": {
+          "editor": "<p>We gratefully acknowledge our sponsors for their support</p>",
+          "align": "center",
+          "text_color": "#666666",
+          "typography_typography": "custom",
+          "typography_font_size": {"unit": "px","size": 18}
+        },
+        "widgetType": "text-editor"
+      },{
+        "id": "sponsors-grid",
+        "elType": "widget",
+        "settings": {
+          "_skin": "classic",
+          "posts_per_page": "12",
+          "columns": "4",
+          "columns_tablet": "3",
+          "columns_mobile": "2",
+          "post_type": "sponsors",
+          "show_title": "yes",
+          "title_tag": "h3",
+          "title_color": "#AC43A9",
+          "show_excerpt": "no",
+          "content_alignment": "center",
+          "image_size": "medium",
+          "border_border": "solid",
+          "border_color": "#e0e0e0",
+          "border_radius": {"unit": "px","top": "10","right": "10","bottom": "10","left": "10","isLinked": true},
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {"horizontal": 0,"vertical": 5,"blur": 15,"spread": 0,"color": "rgba(0,0,0,0.1)"},
+          "padding": {"unit": "px","top": "20","right": "20","bottom": "20","left": "20","isLinked": true}
+        },
+        "widgetType": "posts"
+      }]
+    }],
+    "isInner": false
+  }],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "WPL Sponsors Section",
+  "type": "section"
+}

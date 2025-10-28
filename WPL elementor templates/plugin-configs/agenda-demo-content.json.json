@@ -1,0 +1,74 @@
+{
+  "agenda": [
+    {
+      "day": "Day 1 - September 15, 2024",
+      "sessions": [
+        {
+          "time": "08:00 - 09:00",
+          "title": "Registration & Welcome Coffee",
+          "speaker": "Registration Team",
+          "description": "Arrival and registration of participants with welcome refreshments."
+        },
+        {
+          "time": "09:00 - 09:30",
+          "title": "Opening Ceremony",
+          "speaker": "WPL Leadership",
+          "description": "Official opening of the WPL Summit 2024 with traditional welcome."
+        },
+        {
+          "time": "09:30 - 10:30",
+          "title": "Keynote: The Future of Women in Global Leadership",
+          "speaker": "Dr. Amina J. Mohammed",
+          "description": "Insights on the evolving role of women in international leadership positions."
+        },
+        {
+          "time": "10:30 - 11:00",
+          "title": "Coffee Break & Networking",
+          "speaker": "All Participants",
+          "description": "Networking opportunity with fellow attendees and speakers."
+        },
+        {
+          "time": "11:00 - 12:30",
+          "title": "Panel: Breaking Political Glass Ceilings",
+          "speaker": "Multiple Speakers",
+          "description": "Discussion on strategies for increasing women's representation in politics."
+        }
+      ]
+    },
+    {
+      "day": "Day 2 - September 16, 2024",
+      "sessions": [
+        {
+          "time": "09:00 - 10:30",
+          "title": "Workshop: Digital Campaign Strategies",
+          "speaker": "Expert Facilitators",
+          "description": "Hands-on training on leveraging digital tools for political campaigns."
+        },
+        {
+          "time": "10:30 - 11:00",
+          "title": "Morning Break",
+          "speaker": "All Participants",
+          "description": "Refreshment break and networking."
+        },
+        {
+          "time": "11:00 - 12:30",
+          "title": "Climate Action Roundtable",
+          "speaker": "Mia Mottley & Climate Experts",
+          "description": "Discussion on women's leadership in climate policy and action."
+        },
+        {
+          "time": "12:30 - 14:00",
+          "title": "Networking Lunch",
+          "speaker": "All Participants",
+          "description": "Luncheon with thematic tables for focused networking."
+        },
+        {
+          "time": "14:00 - 15:30",
+          "title": "Economic Empowerment Session",
+          "speaker": "Christine Lagarde & Economic Leaders",
+          "description": "Strategies for women's economic inclusion and financial leadership."
+        }
+      ]
+    }
+  ]
+}

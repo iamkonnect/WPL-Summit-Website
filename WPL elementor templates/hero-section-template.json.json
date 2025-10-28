@@ -1,0 +1,168 @@
+{
+  "content": [
+    {
+      "id": "q5r0s1t2",
+      "elType": "section",
+      "settings": {
+        "structure": "20",
+        "padding": {
+          "unit": "px",
+          "top": "180",
+          "right": "0",
+          "bottom": "100",
+          "left": "0",
+          "isLinked": false
+        },
+        "background_background": "gradient",
+        "background_color": "#1a3e6f",
+        "background_color_b": "#2c5282",
+        "background_gradient_type": "linear",
+        "background_gradient_angle": 135,
+        "background_gradient_position": "center center",
+        "margin": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "120",
+          "right": "0",
+          "bottom": "80",
+          "left": "0",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "100",
+          "right": "0",
+          "bottom": "60",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "u3v8w4x9",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "_inline_size": 100,
+            "content_position": "center",
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "y5z0a1b2",
+              "elType": "widget",
+              "settings": {
+                "title": "WPL Summit 2024",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_weight": "700",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.2
+                },
+                "align": "center",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "heading"
+            },
+            {
+              "id": "c3d8e4f9",
+              "elType": "widget",
+              "settings": {
+                "editor": "<p>Empowering Women Leaders Globally - Join the premier gathering of women political leaders from around the world</p>",
+                "align": "center",
+                "text_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.5
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "widgetType": "text-editor"
+            },
+            {
+              "id": "g0h5i1j6",
+              "elType": "widget",
+              "settings": {
+                "alignment": "center",
+                "button": [
+                  {
+                    "text": "Register Now",
+                    "link": {
+                      "url": "/register"
+                    },
+                    "background_color": "#e63946",
+                    "text_color": "#ffffff",
+                    "border_color": "#e63946",
+                    "hover_background_color": "#c1121f",
+                    "hover_text_color": "#ffffff",
+                    "hover_border_color": "#c1121f",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "5",
+                      "right": "5",
+                      "bottom": "5",
+                      "left": "5",
+                      "isLinked": true
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "40",
+                      "bottom": "15",
+                      "left": "40",
+                      "isLinked": false
+                    },
+                    "typography_typography": "custom",
+                    "typography_font_weight": "600",
+                    "text_transform": "uppercase"
+                  }
+                ],
+                "space_between": {
+                  "unit": "px",
+                  "size": 20
+                }
+              },
+              "widgetType": "button"
+            }
+          ]
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "WPL Hero Section",
+  "type": "section"
+}

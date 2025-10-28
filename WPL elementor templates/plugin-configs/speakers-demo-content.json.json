@@ -1,0 +1,52 @@
+{
+  "speakers": [
+    {
+      "name": "Dr. Amina J. Mohammed",
+      "title": "Deputy Secretary-General",
+      "company": "United Nations",
+      "bio": "Dr. Amina J. Mohammed is the Deputy Secretary-General of the United Nations and Chair of the United Nations Sustainable Development Group.",
+      "image": "speaker-1.jpg",
+      "category": "keynote"
+    },
+    {
+      "name": "Christine Lagarde",
+      "title": "President",
+      "company": "European Central Bank",
+      "bio": "Christine Lagarde is the President of the European Central Bank and former Managing Director of the International Monetary Fund.",
+      "image": "speaker-2.jpg",
+      "category": "keynote"
+    },
+    {
+      "name": "Ngozi Okonjo-Iweala",
+      "title": "Director-General",
+      "company": "World Trade Organization",
+      "bio": "Dr. Ngozi Okonjo-Iweala is the Director-General of the World Trade Organization and former Finance Minister of Nigeria.",
+      "image": "speaker-3.jpg",
+      "category": "keynote"
+    },
+    {
+      "name": "Jacinda Ardern",
+      "title": "Former Prime Minister",
+      "company": "New Zealand",
+      "bio": "Jacinda Ardern is the former Prime Minister of New Zealand, known for her compassionate leadership and focus on well-being.",
+      "image": "speaker-4.jpg",
+      "category": "leadership"
+    },
+    {
+      "name": "Ursula von der Leyen",
+      "title": "President",
+      "company": "European Commission",
+      "bio": "Ursula von der Leyen is the President of the European Commission and former German Defense Minister.",
+      "image": "speaker-5.jpg",
+      "category": "policy"
+    },
+    {
+      "name": "Mia Mottley",
+      "title": "Prime Minister",
+      "company": "Barbados",
+      "bio": "Mia Mottley is the Prime Minister of Barbados and a prominent voice on climate change and sustainable development.",
+      "image": "speaker-6.jpg",
+      "category": "climate"
+    }
+  ]
+}

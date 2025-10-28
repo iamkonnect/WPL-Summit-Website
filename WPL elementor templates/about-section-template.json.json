@@ -1,0 +1,48 @@
+{
+  "content": [{
+    "id": "about-section",
+    "elType": "section",
+    "settings": {
+      "structure": "20",
+      "padding": {"unit": "px","top": "80","right": "0","bottom": "80","left": "0","isLinked": false},
+      "background_background": "classic",
+      "background_color": "#ffffff",
+      "margin": {"unit": "px","top": "0","right": "0","bottom": "0","left": "0","isLinked": false}
+    },
+    "elements": [{
+      "id": "about-content",
+      "elType": "column",
+      "settings": {"_column_size": 100,"_inline_size": 100,"align": "center"},
+      "elements": [{
+        "id": "about-title",
+        "elType": "widget",
+        "settings": {
+          "title": "About WPL Summit 2024",
+          "title_color": "#AC43A9",
+          "typography_typography": "custom",
+          "typography_font_size": {"unit": "px","size": 40},
+          "typography_font_weight": "700",
+          "align": "center"
+        },
+        "widgetType": "heading"
+      },{
+        "id": "about-text",
+        "elType": "widget",
+        "settings": {
+          "editor": "<p>The Women Political Leaders (WPL) Summit 2024 is the premier global gathering of women in political leadership. This year's theme, <strong>\"Leading with Purpose: Shaping Inclusive Futures\"</strong>, brings together heads of state, government ministers, parliamentarians, and emerging leaders from across the political spectrum.</p><p>Over three days, participants will engage in high-level dialogues, strategic workshops, and networking sessions focused on addressing the world's most pressing challenges through the lens of women's leadership and inclusive governance.</p>",
+          "align": "center",
+          "text_color": "#333333",
+          "typography_typography": "custom",
+          "typography_font_size": {"unit": "px","size": 18},
+          "typography_line_height": {"unit": "em","size": 1.6}
+        },
+        "widgetType": "text-editor"
+      }]
+    }],
+    "isInner": false
+  }],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "WPL About Section",
+  "type": "section"
+}

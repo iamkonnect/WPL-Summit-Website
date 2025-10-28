@@ -1,0 +1,213 @@
+/* WPL Summit Custom Styles with New Color Scheme */
+
+/* Header & Navigation */
+.wpl-header {
+  background: var(--wpl-primary);
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.wpl-main-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.wpl-main-menu a:hover {
+  color: var(--wpl-accent);
+}
+
+/* Hero Section */
+.wpl-hero {
+  background: linear-gradient(135deg, var(--wpl-primary) 0%, #8A2BE2 100%);
+  color: white;
+  padding: 180px 0 100px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Buttons */
+.btn-wpl-primary {
+  background-color: var(--wpl-accent);
+  border-color: var(--wpl-accent);
+  color: var(--wpl-secondary);
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-wpl-primary:hover {
+  background-color: #333333;
+  border-color: #333333;
+  color: var(--wpl-secondary);
+  transform: translateY(-2px);
+}
+
+.btn-wpl-secondary {
+  background-color: transparent;
+  border: 2px solid var(--wpl-secondary);
+  color: var(--wpl-secondary);
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-wpl-secondary:hover {
+  background-color: var(--wpl-secondary);
+  color: var(--wpl-primary);
+}
+
+/* Section Titles */
+.section-title h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--wpl-primary);
+}
+
+.wpl-section-dark .section-title h2 {
+  color: white;
+}
+
+/* Speaker Cards */
+.speaker-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--wpl-primary);
+}
+
+.speaker-title {
+  color: var(--wpl-accent);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* Agenda Timeline */
+.timeline-item {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  border-left: 4px solid var(--wpl-accent);
+}
+
+.timeline-time {
+  font-weight: 600;
+  color: var(--wpl-accent);
+  margin-bottom: 5px;
+}
+
+.timeline-title {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--wpl-primary);
+}
+
+/* Footer */
+.footer-section h3 {
+  color: var(--wpl-accent);
+  margin-bottom: 20px;
+}
+
+/* Blog Styles */
+.post-title a {
+  color: var(--wpl-primary);
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  color: var(--wpl-accent);
+}
+
+.nav-links .page-numbers.current,
+.nav-links .page-numbers:hover {
+  background-color: var(--wpl-primary);
+  color: white;
+  border-color: var(--wpl-primary);
+}
+
+.sidebar .widget-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: var(--wpl-primary);
+  border-bottom: 2px solid var(--wpl-accent);
+  padding-bottom: 10px;
+}
+
+/* Countdown Timer */
+.countdown-item {
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  min-width: 80px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Mobile Menu */
+.mobile-menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.mobile-menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  margin: 3px 0;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: flex;
+  }
+  
+  .wpl-navigation {
+    display: none;
+  }
+  
+  .mobile-menu-active .wpl-navigation {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--wpl-primary);
+  }
+  
+  .wpl-main-menu {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .wpl-main-menu li {
+    margin: 10px 0;
+  }
+}

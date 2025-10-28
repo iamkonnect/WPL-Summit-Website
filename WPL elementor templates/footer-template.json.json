@@ -1,0 +1,104 @@
+{
+  "content": [{
+    "id": "c3d8e4f9",
+    "elType": "section",
+    "settings": {
+      "structure": "20",
+      "padding": {"unit": "px","top": "50","right": "0","bottom": "20","left": "0","isLinked": false},
+      "background_background": "classic",
+      "background_color": "#212529",
+      "margin": {"unit": "px","top": "0","right": "0","bottom": "0","left": "0","isLinked": false}
+    },
+    "elements": [{
+      "id": "g0h5i1j6",
+      "elType": "column",
+      "settings": {"_column_size": 25,"_inline_size": 25,"_inline_size_tablet": 50,"_inline_size_mobile": 100},
+      "elements": [{
+        "id": "k7l2m8n3",
+        "elType": "widget",
+        "settings": {
+          "image": {"url": "https://wplsummit.org/wp-content/uploads/2023/logo-white.png","id": 2,"size": "full","alt": "WPL Summit"},
+          "image_size": "full",
+          "image_width": {"unit": "px","size": 150}
+        },
+        "widgetType": "image"
+      },{
+        "id": "o4p9q5r0",
+        "elType": "widget",
+        "settings": {
+          "editor": "<p>Women Political Leaders Network Summit bringing together influential leaders from around the world.</p>",
+          "align": "left",
+          "text_color": "#ffffff"
+        },
+        "widgetType": "text-editor"
+      }]
+    },{
+      "id": "s1t6u2v7",
+      "elType": "column",
+      "settings": {"_column_size": 25,"_inline_size": 25,"_inline_size_tablet": 50,"_inline_size_mobile": 100},
+      "elements": [{
+        "id": "w3x8y4z9",
+        "elType": "widget",
+        "settings": {
+          "title": "Quick Links",
+          "title_color": "#ffffff",
+          "align": "left",
+          "menu": "footer-menu",
+          "menu_direction": "vertical",
+          "menu_color": "#ffffff",
+          "menu_color_hover": "#AC43A9",
+          "menu_typography_typography": "custom",
+          "menu_typography_font_size": {"unit": "px","size": 16}
+        },
+        "widgetType": "nav-menu"
+      }]
+    },{
+      "id": "a5b0c1d2",
+      "elType": "column",
+      "settings": {"_column_size": 25,"_inline_size": 25,"_inline_size_tablet": 50,"_inline_size_mobile": 100},
+      "elements": [{
+        "id": "e3f8g4h9",
+        "elType": "widget",
+        "settings": {
+          "title": "Contact Info",
+          "title_color": "#ffffff",
+          "align": "left",
+          "editor": "<p><strong>Email:</strong> info@wplsummit.org</p><p><strong>Phone:</strong> +1 (555) 123-4567</p><p><strong>Address:</strong> 123 Summit Ave, City, Country</p>",
+          "text_color": "#ffffff"
+        },
+        "widgetType": "text-editor"
+      }]
+    },{
+      "id": "i5j0k1l2",
+      "elType": "column",
+      "settings": {"_column_size": 25,"_inline_size": 25,"_inline_size_tablet": 50,"_inline_size_mobile": 100},
+      "elements": [{
+        "id": "m3n8o4p9",
+        "elType": "widget",
+        "settings": {
+          "title": "Follow Us",
+          "title_color": "#ffffff",
+          "align": "left",
+          "skin": "gradient",
+          "shape": "rounded",
+          "social_icon_list": [
+            {"social": "fab fa-linkedin","link": {"url": "https://linkedin.com/company/wpl-summit"}},
+            {"social": "fab fa-twitter","link": {"url": "https://twitter.com/wplsummit"}},
+            {"social": "fab fa-facebook","link": {"url": "https://facebook.com/wplsummit"}},
+            {"social": "fab fa-instagram","link": {"url": "https://instagram.com/wplsummit"}}
+          ],
+          "icon_color": "#ffffff",
+          "icon_hover_color": "#AC43A9",
+          "icon_background_color": "rgba(255,255,255,0.1)",
+          "icon_hover_background_color": "#ffffff"
+        },
+        "widgetType": "social-icons"
+      }]
+    }],
+    "isInner": false
+  }],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "WPL Footer",
+  "type": "section"
+}

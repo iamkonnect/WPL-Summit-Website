@@ -1,0 +1,95 @@
+{
+  "content": [{
+    "id": "news-section",
+    "elType": "section",
+    "settings": {
+      "structure": "20",
+      "padding": {"unit": "px","top": "80","right": "0","bottom": "80","left": "0","isLinked": false},
+      "background_background": "classic",
+      "background_color": "#f8f9fa",
+      "margin": {"unit": "px","top": "0","right": "0","bottom": "0","left": "0","isLinked": false}
+    },
+    "elements": [{
+      "id": "news-content",
+      "elType": "column",
+      "settings": {"_column_size": 100,"_inline_size": 100,"align": "center"},
+      "elements": [{
+        "id": "news-title",
+        "elType": "widget",
+        "settings": {
+          "title": "Latest News",
+          "title_color": "#AC43A9",
+          "typography_typography": "custom",
+          "typography_font_size": {"unit": "px","size": 40},
+          "typography_font_weight": "700",
+          "align": "center"
+        },
+        "widgetType": "heading"
+      },{
+        "id": "news-subtitle",
+        "elType": "widget",
+        "settings": {
+          "editor": "<p>Stay updated with the latest announcements and insights</p>",
+          "align": "center",
+          "text_color": "#666666",
+          "typography_typography": "custom",
+          "typography_font_size": {"unit": "px","size": 18}
+        },
+        "widgetType": "text-editor"
+      },{
+        "id": "news-grid",
+        "elType": "widget",
+        "settings": {
+          "_skin": "classic",
+          "posts_per_page": "3",
+          "columns": "3",
+          "columns_tablet": "2",
+          "columns_mobile": "1",
+          "post_type": "post",
+          "show_title": "yes",
+          "title_tag": "h3",
+          "title_color": "#AC43A9",
+          "show_excerpt": "yes",
+          "excerpt_length": 20,
+          "show_read_more": "yes",
+          "read_more_text": "Read More",
+          "content_alignment": "center",
+          "border_border": "solid",
+          "border_color": "#e0e0e0",
+          "border_radius": {"unit": "px","top": "10","right": "10","bottom": "10","left": "10","isLinked": true},
+          "box_shadow_box_shadow_type": "yes",
+          "box_shadow_box_shadow": {"horizontal": 0,"vertical": 5,"blur": 15,"spread": 0,"color": "rgba(0,0,0,0.1)"},
+          "padding": {"unit": "px","top": "20","right": "20","bottom": "20","left": "20","isLinked": true}
+        },
+        "widgetType": "posts"
+      },{
+        "id": "news-button",
+        "elType": "widget",
+        "settings": {
+          "alignment": "center",
+          "button": [{
+            "text": "View All News",
+            "link": {"url": "/news"},
+            "background_color": "#000000",
+            "text_color": "#ffffff",
+            "border_color": "#000000",
+            "hover_background_color": "#333333",
+            "hover_text_color": "#ffffff",
+            "hover_border_color": "#333333",
+            "border_radius": {"unit": "px","top": "5","right": "5","bottom": "5","left": "5","isLinked": true},
+            "padding": {"unit": "px","top": "12","right": "30","bottom": "12","left": "30","isLinked": false},
+            "typography_typography": "custom",
+            "typography_font_weight": "600",
+            "text_transform": "uppercase"
+          }]
+        },
+        "widgetType": "button"
+      }]
+    }],
+    "isInner": false
+  }],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "WPL News Section",
+  "type": "section"
+}

@@ -1,0 +1,28 @@
+{
+  "news": [
+    {
+      "title": "WPL Summit 2024 Announces Record Number of Women Leaders",
+      "excerpt": "The upcoming WPL Summit 2024 has confirmed participation from over 200 women political leaders from 80 countries, making it the largest gathering of women in political leadership.",
+      "content": "The Women Political Leaders Summit 2024 is set to break records with confirmed attendance from more than 200 women political leaders representing 80 nations. This year's summit, themed 'Leading with Purpose: Shaping Inclusive Futures,' will focus on critical global issues including climate change, economic inclusion, and digital transformation. Keynote speakers include prominent global leaders who have championed women's leadership in their respective domains.",
+      "date": "2024-06-15",
+      "category": "announcements",
+      "featured_image": "news-1.jpg"
+    },
+    {
+      "title": "New Partnership with UN Women to Expand Leadership Programs",
+      "excerpt": "WPL Summit announces strategic partnership with UN Women to develop leadership training programs for emerging women politicians worldwide.",
+      "content": "In a significant move to strengthen women's political leadership globally, the WPL Summit has entered into a strategic partnership with UN Women. This collaboration will focus on developing comprehensive leadership training programs tailored for emerging women politicians. The initiative aims to provide mentorship, skills development, and networking opportunities for women at various stages of their political careers, from local governance to national leadership positions.",
+      "date": "2024-06-10",
+      "category": "partnerships",
+      "featured_image": "news-2.jpg"
+    },
+    {
+      "title": "Youth Delegation Program Launched for Next Generation Leaders",
+      "excerpt": "WPL Summit introduces youth delegation program to engage and mentor the next generation of women political leaders.",
+      "content": "Recognizing the importance of cultivating leadership from an early age, the WPL Summit has launched a Youth Delegation Program for 2024. This initiative will bring together 50 young women from around the world who have demonstrated leadership potential in their communities. Selected participants will receive full scholarships to attend the summit, participate in specialized workshops, and engage in mentorship sessions with established women leaders. The program aims to create a pipeline of future women political leaders equipped with the skills and networks needed for success.",
+      "date": "2024-06-05",
+      "category": "programs",
+      "featured_image": "news-3.jpg"
+    }
+  ]
+}
