@@ -1,4 +1,7 @@
 wpl-summit-theme-package/
+├── 📄 wpl-summit-preview.html         
+├── 📄 PREVIEW-INSTRUCTIONS.md         
+wpl-summit-theme-package/
 ├── 📁 wpl-summit-child/
 │   ├── 📄 style.css
 │   ├── 📄 functions.php
@@ -7,7 +10,7 @@ wpl-summit-theme-package/
 │   ├── 📄 header.php
 │   ├── 📄 footer.php
 │   ├── 📄 speakers.php
-│   ├── 📄 page.php                    ← NEWLY ADDED
+│   ├── 📄 page.php                    
 │   │
 │   ├── 📁 assets/
 │   │   ├── 📁 css/
@@ -36,18 +39,18 @@ wpl-summit-theme-package/
 │   ├── 📄 footer-template.json
 │   ├── 📄 hero-section-template.json
 │   ├── 📄 speakers-grid-template.json
-│   ├── 📄 homepage-template.json           ← NEWLY ADDED
-│   ├── 📄 about-section-template.json      ← NEWLY ADDED
-│   ├── 📄 agenda-section-template.json     ← NEWLY ADDED
-│   ├── 📄 sponsors-section-template.json   ← NEWLY ADDED
-│   └── 📄 news-section-template.json       ← NEWLY ADDED
+│   ├── 📄 homepage-template.json           
+│   ├── 📄 about-section-template.json      
+│   ├── 📄 agenda-section-template.json     
+│   ├── 📄 sponsors-section-template.json   
+│   └── 📄 news-section-template.json       
 │
 ├── 📁 plugin-configs/
 │   ├── 📄 acf-fields-export.json
 │   ├── 📄 custom-post-types-export.json
-│   ├── 📄 speakers-demo-content.json       ← NEWLY ADDED
-│   ├── 📄 agenda-demo-content.json         ← NEWLY ADDED
-│   ├── 📄 sponsors-demo-content.json       ← NEWLY ADDED
-│   └── 📄 news-demo-content.json           ← NEWLY ADDED
+│   ├── 📄 speakers-demo-content.json      
+│   ├── 📄 agenda-demo-content.json         
+│   ├── 📄 sponsors-demo-content.json       
+│   └── 📄 news-demo-content.json           
 │
 └── 📄 INSTALLATION-GUIDE.md
