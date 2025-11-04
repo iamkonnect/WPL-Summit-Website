@@ -38,7 +38,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <?php echo date('2026'); ?> WPL Summit. All rights reserved.</p>
+                <p>&copy; <?php echo date('Y'); ?> WPL Summit. All rights reserved.</p>
             </div>
         </div>
     </footer>
